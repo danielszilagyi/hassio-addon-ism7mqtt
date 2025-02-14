@@ -1,6 +1,6 @@
 ARG BUILD_FROM
 
-FROM zivillian/ism7mqtt:master AS ism
+FROM docker.io/danielszilagyi111/ism7mqtt:latest AS ism
 
 FROM $BUILD_FROM
 
