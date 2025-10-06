@@ -1,6 +1,6 @@
 ARG BUILD_FROM
 
-FROM docker.io/danielszilagyi111/ism7mqtt:latest AS ism
+FROM docker.io/danielszilagyi111/ism7mqtt:2025.10 AS ism
 
 FROM $BUILD_FROM
 
