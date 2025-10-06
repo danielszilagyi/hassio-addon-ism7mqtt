@@ -1,3 +1,7 @@
+# Fork information
+This is a fork of https://github.com/b3nn0/hassio-addon-ism7mqtt originally to be able to use localized entity names and states properly.
+The experimental addon includes the fix for deprecated option `object_id` that will make the original addon stop working with HA 2026.4
+
 # Ism7MQTT Addon Repository
 
 This Repository contains a Home Assistant Addon to run Ism7MQTT for reading data from Wolf heaters, equipped with an ISM7 Module, directly.
